@@ -1,0 +1,43 @@
+:root{
+--cor_principal: rgb(1, 1, 53);
+--cor_secundária: rgb(151, 151, 197);
+--cor_terciaria: rgb(248, 247, 247);
+}
+
+*  {
+    margin:20;
+    padding:10;
+}
+
+header{
+background-color: var(--cor_principal);
+text-align: center;
+color: var(--cor_terciaria);
+padding: 30px; 
+
+
+}
+
+main{
+    background-color: var(--cor_secundária);
+    margin: 10px;
+
+}
+.cards{
+    justify-content: space-between;
+    background-color: var(--cor_secundária);
+    display:flex;
+    flex-wrap: wrap;
+
+}
+card{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(12, 12, 12);
+}
+.rodape{
+    text-align: center;
+    color: var(--cor_principal);
+}
